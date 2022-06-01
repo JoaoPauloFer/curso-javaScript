@@ -1,0 +1,34 @@
+// parâmetros de função
+
+              //2       //2
+// function soma(numero1, numero2) {
+//   return numero1 + numero2;
+// }
+
+// console.log(soma(2, 2))
+// console.log(soma(245, 20))
+// console.log(soma(-500, 60))
+
+// parâmetros x argumentos
+
+// ordem dos parâmetros
+
+var a = "";
+var a = null;
+
+function nomeIdade(nome, idade) {
+  return `meu nome é ${nome} e minha idade é ${idade}`;
+}
+
+console.log(nomeIdade('João Paulo', 20))
+
+function soma(numero1, numero2) {
+  return numero1 + numero2;
+}
+
+function multiplica(numero1 = 1, numero2 = 1) {
+  return numero1 * numero2;
+}
+
+                            //7         //2
+console.log(multiplica(soma(2 , 5), soma(1, 1)))
